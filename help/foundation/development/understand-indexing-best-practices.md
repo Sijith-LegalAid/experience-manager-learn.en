@@ -98,7 +98,7 @@ Below image shows custom and OOTB index definition, highlighting the `tags` prop
 
 ##### Analysis
 
-This is an improper use of the `tags` property on the custom index. The Oak query engine picks the custom index over the OOTB index cause of the lowest estimated cost.
+This is an improper use of the `tags` property on the custom index. The Oak query engine picks the custom index over the OOTB index because of the lower estimated cost.
 
 The correct way is to customize the OOTB index and add necessary properties in the `indexRules` node. See [Customizing the OOTB index](#customize-the-ootb-index) for more details.
 
